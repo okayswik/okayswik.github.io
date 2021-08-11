@@ -1,1 +1,0 @@
-# okayswik.github.io
