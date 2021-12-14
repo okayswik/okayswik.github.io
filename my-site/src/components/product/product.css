@@ -1,0 +1,31 @@
+.p {
+  width: 30%;
+  height: 40vh;
+  margin: 20px 10px;
+  border: 2px solid rgba(193, 193, 193, 0.468);
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+}
+.p-browser {
+  height: 20px;
+  background-color: rgba(193, 193, 193, 0.468);
+  display: flex;
+  align-items: center;
+  position: sticky;
+
+  z-index: 2;
+}
+.p-circle {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 3px;
+}
+.p-image {
+  width: 100%;
+  transition: all 10s ease;
+}
+.p:hover .p-image {
+  transform: translateY(-100%);
+}
