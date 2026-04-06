@@ -243,12 +243,12 @@ export default function App() {
           <FadeIn>
             <div className="contact-box">
               <h2>Let's build something together.</h2>
-              <p>Open to full-time roles and interesting conversations.</p>
+              <p>Open to graduate roles/internships and interesting conversations.</p>
               <a href="mailto:you@email.com" className="btn-light">say hello →</a>
               <div className="social-links">
                 <a href="https://github.com/okayswik" target="_blank" rel="noreferrer">GitHub</a>
-                <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noreferrer">LinkedIn</a>
-                <a href="/resume.pdf">Resume</a>
+                <a href="https://linkedin.com/in/swikritineupane" target="_blank" rel="noreferrer">LinkedIn</a>
+                {/* <a href="/resume.pdf">Resume</a> */}
               </div>
             </div>
           </FadeIn>
