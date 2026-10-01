@@ -1,37 +1,111 @@
-Strongly Typed by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Swikriti Neupane — Portfolio Website
 
+A personal portfolio website built with React, showcasing my commercial experience, technical skills, and projects as a Software Engineer and AI/ML Engineering student.
 
-This is Strongly Typed, a new site template with a minimal, semi-retro
-look (inspired by old instruction manuals) and, as you might guess from its
-name, a strong emphasis on type. It's fully responsive, built on HTML5/CSS3,
-and includes styling for all basic page elements. Demo images* are courtesy of
-regularjane, an incredibly talented photographer friend of mine. Be sure to
-check out more of her work over at deviantART:
+🌐 **Live site:** [okayswik.github.io](https://okayswik.github.io)
 
-http://regularjane.deviantart.com/
+---
 
-(* = Not included! Only meant for use with my own on-site demo, so please do NOT download
-and/or use any of Jane's work without her explicit permission!)
+## About
 
-As usual, feedback, bug reports, and comments are not only welcome, but strongly
-encouraged :)
+This portfolio was designed and built from scratch to reflect my background as a full-stack software engineer with 2+ years of production experience. It features a clean, warm aesthetic with subtle animations and a fully responsive layout.
 
-AJ
-aj@lkn.io | @ajlkn
+---
 
-PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
+## Features
 
+- **Typewriter hero** — cycles through role descriptors with a blinking cursor
+- **Animated profile photo** — floating effect with rotating orbit rings and floating tech tags
+- **Scroll-triggered fade-ins** — directional reveal animations on every section
+- **3D card tilt** — project cards respond to mouse movement
+- **Animated stat counters** — numbers count up on scroll into view
+- **Scroll progress bar** — terracotta line tracks reading progress
+- **Marquee skills strip** — continuous scrolling tech stack banner
+- **Dark projects section** — alternating section backgrounds for visual rhythm
+- **Dot grid texture** — subtle ambient background pattern
+- **Responsive** — mobile-first layout, hidden photo on small screens
+- **Accessible** — respects `prefers-reduced-motion` for all animations
 
-Credits:
+---
 
-	Demo Images:
-		regularjane (regularjane.deviantart.com)
+## Tech Stack
 
-	Icons:
-		Font Awesome (fontawesome.io)
+| Layer | Technology |
+|---|---|
+| Framework | React 18 |
+| Bundler | Vite |
+| Styling | CSS-in-JS (inline `<style>` tag) |
+| Fonts | Google Fonts — Lora (serif), DM Sans |
+| Deployment | GitHub Pages |
+| Language | JavaScript (JSX) |
 
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+---
+
+## Project Structure
+
+```
+okayswik.github.io/
+├── public/
+│   ├── index.html
+│   └── photo.jpg          # Profile photo
+├── src/
+│   └── App.jsx            # Single-file React app
+├── package.json
+└── vite.config.js
+```
+
+---
+
+## Running Locally
+
+```bash
+# Clone the repo
+git clone https://github.com/okayswik/okayswik.github.io.git
+cd okayswik.github.io
+
+# Install dependencies
+npm install
+
+# Start dev server
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+---
+
+## Deploying
+
+```bash
+# Build for production
+npm run build
+
+# Deploy to GitHub Pages
+npm run deploy
+```
+
+Ensure your `vite.config.js` has the correct `base` set to your GitHub Pages URL.
+
+---
+
+## Sections
+
+- **Hero** — introduction, typewriter, profile photo, key achievement callout
+- **About** — background, animated stat cards (2+ years, 30,000+ users, 4+ features, 3+ ML projects)
+- **Experience** — Junior Full-Stack Developer at DoppelMate · LemedoIt Inc.
+- **Projects** — ASX Stock Prediction, HiCar, AI Engineering (CV & Speech), Amazon Clone
+- **Skills** — Languages, Frontend, Backend, Databases, Cloud, AI/ML, Tools
+- **Contact** — email, GitHub, LinkedIn
+
+---
+
+## Contact
+
+**Swikriti Neupane**
+📧 swikritineupanee@gmail.com
+🔗 [linkedin.com/in/swikriti-neupane](https://linkedin.com/in/swikriti-neupane)
+🐙 [github.com/okayswik](https://github.com/okayswik)
+
+---
+
+*Designed and built by Swikriti Neupane · 2026*
